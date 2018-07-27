@@ -1,7 +1,7 @@
 #encoding=utf-8
 
 
-import gc
+import gc #垃圾回收模块
 
 from gensim import corpora, models, similarities
 from sentence import Sentence

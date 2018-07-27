@@ -1,6 +1,6 @@
 #encoding=utf-8
 
-from zhcnSegment import Seg
+from fileObject import Seg
 
 class Sentence(object):
 	

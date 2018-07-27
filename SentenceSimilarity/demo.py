@@ -1,7 +1,6 @@
 #encoding=utf-8
 
-from zhcnSegment import *
-from fileObject import FileObj
+from fileObject import FileObj,Seg
 from sentenceSimilarity import SentenceSimilarity
 from sentence import Sentence
 
@@ -22,7 +21,7 @@ if __name__ == '__main__':
     seg = Seg()
 
     # 训练模型
-    ss = SentenceSimilarity(seg)
+    ss = SentenceSimilarity(seg)      
     ss.set_sentences(train_sentences)
     ss.TfidfModel()         # tfidf模型
     # ss.LsiModel()         # lsi模型
